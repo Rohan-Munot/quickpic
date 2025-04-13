@@ -38,7 +38,7 @@ export default function ToolsLayout({
       <main className="flex flex-grow flex-col items-center justify-center">
         {children}
       </main>
-      <footer className="mt-8 text-center text-sm text-gray-500">
+      {/* <footer className="mt-8 text-center text-sm text-gray-500">
         <a
           href="https://github.com/t3dotgg/quickpic"
           target="_blank"
@@ -47,7 +47,7 @@ export default function ToolsLayout({
         >
           View on GitHub
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }

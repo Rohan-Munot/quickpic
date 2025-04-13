@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col justify-between p-8 font-[family-name:var(--font-geist-sans)] sm:p-20">
       <main className="flex flex-grow flex-col items-center justify-center">
-        <div>
+        {/* <div>
           Hi. I&apos;m{" "}
           <a
             href="https://twitter.com/t3dotgg"
@@ -15,7 +15,7 @@ export default function Home() {
             Theo
           </a>
           . I built these tools because I was annoyed they did not exist.
-        </div>
+        </div> */}
         <div className="mt-4"></div>
         <Link href="/svg-to-png" className="text-blue-500 hover:underline">
           SVG to PNG converter
@@ -27,7 +27,7 @@ export default function Home() {
           Corner Rounder
         </Link>
       </main>
-      <footer className="mt-8 text-center text-sm text-gray-500">
+      {/* <footer className="mt-8 text-center text-sm text-gray-500">
         <a
           href="https://github.com/t3dotgg/quickpic"
           target="_blank"
@@ -36,7 +36,7 @@ export default function Home() {
         >
           View on GitHub
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }
